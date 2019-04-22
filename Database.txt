@@ -1,0 +1,7 @@
+drop database class;
+create database class;
+use class;
+CREATE TABLE data(id int(4) auto_increment Primary key , name VARCHAR(20), user_name VARCHAR(20),password VARCHAR(20),
+confirm_pass VARCHAR(20),email_id VARCHAR(30),mobile_num bigint(20),gender VARCHAR(20),state VARCHAR(20), address 
+VARCHAR(50));
+INSERT INTO data (name,user_name,password,confirm_pass,email_id,mobile_num,gender,state,address) VALUES('himanshu dhaka','himanshu1415','qwertpad','qwertypad','1415himanshu1415@gmail.com',9958254935,'Male','UP','Sec-3 H.no-1415 Vasundhara Ghaziabad');
